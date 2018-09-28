@@ -1,0 +1,83 @@
+
+/*
+
+_add-option.scss
+
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\components\_add-option.scss
+
+
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\styles.scss
+
+@import './components/add-option';
+
+ */
+
+
+.add-option-error
+{
+    color: $off-white;
+    fonst-style: italic;
+    margin: $m-size 0 0 0;
+    padding: 0 $m-size;
+}
+
+/*
+
+//  SEC_008 --- 72. Mobile Considerations 12:57
+
+horizontal positioning (default) :
+    flex-direction: row;
+vertical positioning :
+    flex-direction: column;
+ */
+
+.add-option
+{
+    display: flex;
+    flex-direction: column;
+    padding: $m-size;
+}
+
+.add-option__input
+{
+    background: $dark-blue;
+    border: none;
+    border-bottom: .3rem solid darken($dark-blue, 10%);
+    color: $off-white;
+    flex-grow: 1;
+    margin: 0 0 $s-size 0;
+//    margin-right: $s-size;
+    padding: $s-size;
+}
+
+
+/*
+
+@media (min-width: 67rem)
+@media (min-width: 45rem)
+    *  { color: red; }
+
+@media (min-width: $desktop-breakpoint)
+$desktop-breakpoint
+
+everything within @media will be used
+when accessing via desktop.
+
+ */
+
+@media (min-width: $desktop-breakpoint)
+{
+
+.add-option
+{
+    flex-direction: row;
+}
+
+.add-option__input
+{
+    margin: 0 $s-size 0 0;
+}
+
+}

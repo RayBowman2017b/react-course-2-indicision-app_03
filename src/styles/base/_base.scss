@@ -1,0 +1,45 @@
+
+/*
+_base.scss
+
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\base\_base.scss
+
+//  rem
+
+    font-size: 1.6rem; === 16px
+    font-size: 2.2rem; === 22px
+ */
+
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    background: $dark-blue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+h1
+{
+    font-size: 2.2rem;
+}
+
+
+/*
+//  SEC_008 --- 68. Big Button & Options List 15:24
+ */
+
+button
+{
+    cursor: pointer;
+}
+
+button:disabled
+{
+    cursor: default;
+}

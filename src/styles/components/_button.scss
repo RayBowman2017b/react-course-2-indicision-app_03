@@ -1,0 +1,82 @@
+
+/*
+
+_button.scss
+
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\components\_button.scss
+
+
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\styles.scss
+
+@import './components/button';
+
+ */
+
+/*
+//  SEC_008 --- 68. Big Button & Options List 15:24
+
+
+http://sass-lang.com/documentation/Sass/Script/Functions.html
+
+ */
+
+.big-button
+{
+    background: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $m-size;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-button:disabled
+{
+    opacity: .5;
+}
+
+
+.std-button
+{
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple, 10%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+
+/*
+//  SEC_008 --- 68. Big Button & Options List 15:24
+
+BEM -> modifier
+
+ */
+
+.std-button--link
+{
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+
+
+
+//  SEC_008 --- 72. Mobile Considerations 12:57
+
+@media (min-width: $desktop-breakpoint)
+{
+
+.big-button
+{
+    margin-bottom: $xl-size;
+}
+
+}

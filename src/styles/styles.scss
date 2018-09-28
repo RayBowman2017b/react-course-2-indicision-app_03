@@ -1,0 +1,75 @@
+
+/* styles.scss */
+
+/*
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\styles.scss
+
+
+//  SEC_008 --- 64. Setting up Webpack with SCSS 13:16
+
+ */
+
+/*
+$brand-color: blue;
+
+*
+{
+    color: $brand-color;
+}
+*/
+
+
+/*
+//  SEC_008 --- 67. Theming with Variables 14:18
+*/
+
+@import './base/settings';
+
+
+@import './base/base';
+
+
+//  SEC_008 --- 71. Styling React-Modal 18:00
+
+@import './components/modal';
+
+
+/*
+
+//  SEC_008 --- 70. Styling Option Item 16:40
+
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\components\_add-option.scss
+
+*/
+
+@import './components/add-option';
+@import './components/option';
+
+
+/*
+//  SEC_008 --- 69. Styling the Options List 14:13
+*/
+
+@import './components/widget';
+
+/*
+//  SEC_008 --- 68. Big Button & Options List 15:24
+*/
+
+@import './components/button';
+
+
+/*
+//  SEC_008 --- 67. Theming with Variables 14:18
+*/
+
+@import './components/container';
+
+/*
+//  SEC_008 --- 65. Architecture and Header Styles 14:48
+*/
+
+@import './components/header';
+

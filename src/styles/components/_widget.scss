@@ -1,0 +1,50 @@
+
+
+/*
+
+_widget.scss
+
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\components\_widget.scss
+
+
+//  SEC_008 --- 69. Styling the Options List 14:13
+
+
+K:\aaa_TransZ_DT201607\Ralph\Udemy\C023_Complete_React_Web_Dev\Sections\
+SEC_008_Styling_React\proj_01\Indecision-app\src\styles\styles.scss
+
+@import './components/widget';
+
+
+    background: green;
+*/
+
+.std-widget
+{
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+
+.widget-header
+{
+    color: $off-white;
+    background: $blue;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+.widget-header__title
+{
+    margin: 0;
+}
+
+.widget__message
+{
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+}
