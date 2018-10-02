@@ -1,0 +1,22 @@
+z016_notes_01.txt
+
+  node A02_sec013_135_server\server_135.js
+
+git push -u origin_Indc_03 master
+
+
+K:\A01_Udemy\Indecision-app_02>git push -u origin_Indc_03 master
+Counting objects: 66, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (61/61), done.
+Writing objects: 100% (66/66), 320.66 KiB | 1.27 MiB/s, done.
+Total 66 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas: 100% (12/12), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/RayBowman2017b/react-course-2-indicision-app_03/pull/new/master
+remote:
+To github.com:RayBowman2017b/react-course-2-indicision-app_03.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin_Indc_03'.
+
